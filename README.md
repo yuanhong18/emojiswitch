@@ -16,7 +16,7 @@ I like eating __green_apple__
 demojize ：Parsing Emoji into a specific language (currently only Chinese(zh) and English(en) are supported)  
 (delimiters: distinguish the text to be translated)
 
-emojize：Translate text to Emoji 
+emojize：Translate text to Emoji  
 (delimiters: distinguish the text to be translated)
 # Install
 ~~~
