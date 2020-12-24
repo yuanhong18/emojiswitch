@@ -12,13 +12,12 @@ This animal is 🐅
 >>> print(emojiswitch.demojize('I like eating 🍏',delimiters=("__", "__"),lang="en"))
 I like eating __green_apple__
 ~~~
-Two modes：
+# Two modes：
+demojize ：Parsing Emoji into a specific language (currently only Chinese(zh) and English(en) are supported)  
+(delimiters: distinguish the text to be translated)
 
-demojize ：Parsing Emoji into a specific language (currently only Chinese(zh) and English(en) are supported)
-(delimiters: Display on output)
-
-emojize：Translate text to Emoji                                                                                                                                                             
-(delimiters: text to be translated)
+emojize：Translate text to Emoji 
+(delimiters: distinguish the text to be translated)
 # Install
 ~~~
 $ pip install emojiswitch
