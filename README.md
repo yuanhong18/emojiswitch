@@ -5,11 +5,11 @@ Emoji switch(supporting Chinese and English, "en" and "zh")
 >>> import emojiswitch
 >>> print(emojiswitch.emojize('This animal is :tiger:', delimiters=(":", ":"), lang="en"))
 This animal is 🐅
->>> print(emojiswitch.emojize('这个动物是__老虎__',delimiters=("__", "__"),lang="zh"))
+>>> print(emojiswitch.emojize('这个动物是__老虎__', delimiters=("__", "__"), lang="zh"))
 这个动物是🐅
->>> print(emojiswitch.demojize('我喜欢吃🍏',delimiters=("__", "__"),lang="zh"))
+>>> print(emojiswitch.demojize('我喜欢吃🍏', delimiters=("__", "__"), lang="zh"))
 我喜欢吃__青苹果__
->>> print(emojiswitch.demojize('I like eating 🍏',delimiters=("__", "__"),lang="en"))
+>>> print(emojiswitch.demojize('I like eating 🍏', delimiters=("__", "__"), lang="en"))
 I like eating __green_apple__
 ~~~
 # Two modes：
