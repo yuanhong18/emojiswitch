@@ -14,14 +14,14 @@ I like eating __green_apple__
 ~~~
 Two modes：
 
-demojize(Parsing Emoji into a specific language (currently only Chinese(zh) and English(en) are supported))
+demojize ：Parsing Emoji into a specific language (currently only Chinese(zh) and English(en) are supported)
 params:
 delimiters: Display on output
 
-emojize(Translate text to Emoji)
+emojize：Translate text to Emoji
 params:
 delimiters: text to be translated
-# Installd
+# Install
 ~~~
 $ pip install emojiswitch
 ~~~
