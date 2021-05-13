@@ -15,11 +15,13 @@ print(emojiswitch.demojize('I like eating 🍏', delimiters=("__", "__"), lang="
 ~~~
 
 # Two modes:
-demojize   ：Parsing Emoji into a specific language (currently only Chinese (zh) and English (en) are supported)  
+1. demojize   ：Parsing Emoji into a specific language
 (delimiters: distinguish the text to be translated)
 
-emojize      ：Translate text to Emoji  
+2. emojize      ：Translate text to Emoji  
 (delimiters: distinguish the text to be translated)
+
+(Note: currently only Chinese (zh) and English (en) are supported)
 
 # Installation
 ~~~
