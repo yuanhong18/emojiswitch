@@ -11,7 +11,7 @@ print(emojize('这个动物是__老虎__', delimiters=("__", "__"), lang="zh")) 
 
 # emoji swith to word
 print(demojize('我喜欢吃🍏', delimiters=("__", "__"), lang="zh"))                                           # 我喜欢吃__青苹果__
-print(emojiswitch.demojize('I like eating 🍏', delimiters=("__", "__"), lang="en"))         # I like eating __green_apple__
+print(demojize('I like eating 🍏', delimiters=("__", "__"), lang="en"))                                    # I like eating __green_apple__
 ~~~
 
 # Two modes:
