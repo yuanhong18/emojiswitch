@@ -15,7 +15,7 @@ print(demojize('I like eating 🍏', delimiters=("__", "__"), lang="en"))       
 ~~~
 
 # Two modes:
-1. demojize   ：Parsing Emoji into a specific language
+1. demojize   ：Parsing Emoji into a specific language  
 (delimiters: distinguish the text to be translated)
 
 2. emojize      ：Translate text to Emoji  
