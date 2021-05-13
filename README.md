@@ -27,4 +27,4 @@ $ pip install emojiswitch
 ~~~
 
 # Authors
-mieqihezi(梅妻鹤子)
+mieqihezi (梅妻鹤子)
